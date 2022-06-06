@@ -7,6 +7,7 @@ public class Sample01 {
 	public static void main(String[] args) {
 		FileInputStream input = null;
 		FileOutputStream output = null;
+		
 		try {
 			input = new FileInputStream("pom.xml");
 			output = new FileOutputStream("test.xml");
