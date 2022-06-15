@@ -3,7 +3,6 @@ package com.java.Study.Chap15;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import org.apache.commons.math3.geometry.euclidean.oned.Euclidean1D.NoSubSpaceException;
 
 public class Sample05 {
 	public static void main(String[] args) {
