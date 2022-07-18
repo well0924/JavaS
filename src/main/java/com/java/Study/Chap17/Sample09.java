@@ -13,6 +13,7 @@ import lombok.ToString;
 public class Sample09 {
 	public static void main(String[] args) {
 		List<Board>boardList = new ArrayList<>();
+		//1부터 100까지 반복문으로 게시글을 저장.
 		IntStream.range(1, 100).forEach(i -> {boardList.add(
 										new Board(i,"title_"+i,"user"+i,
 												LocalDateTime.now())
