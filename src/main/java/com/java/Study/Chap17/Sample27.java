@@ -11,5 +11,6 @@ public class Sample27 {
 		IntStream range = IntStream.rangeClosed(2, 10);
 		long sum2 = range.boxed().collect(Collectors.reducing(1,Integer::sum));
 		System.out.println(sum2);
+		System.out.println(123);
 	}
 }
